@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 & 作品集</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">我的作品集</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#projects">项目作品</a></li>
+                <li><a href="#blog">博客</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页 Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">你好，我是<span class="highlight">[你的名字]</span></h1>
+                    <p class="hero-subtitle">[你的职位/身份]</p>
+                    <p class="hero-description">
+                        专注于[你的专业领域]，致力于创造有价值的[你的工作内容]。
+                        拥有[X]年行业经验，热爱技术创新与用户体验设计。
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">联系我</a>
+                        <a href="#projects" class="btn btn-secondary">查看作品</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <p>个人照片</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>个人简介</h3>
+                    <p>
+                        [在这里写你的个人简介，包括你的背景、经历、兴趣爱好等]
+                    </p>
+                    <p>
+                        [可以详细介绍你的专业技能、工作理念、以及你在行业中的定位]
+                    </p>
+                    
+                    <h3>技能专长</h3>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span class="skill-name">[技能1]</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">[技能2]</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">[技能3]</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">[技能4]</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-text">
+                            <h4>邮箱</h4>
+                            <p>[your-email@example.com]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-text">
+                            <h4>电话</h4>
+                            <p>[+86 XXX XXXX XXXX]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-text">
+                            <h4>地址</h4>
+                            <p>[你的城市，国家]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="info-text">
+                            <h4>学历</h4>
+                            <p>[你的学历]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目作品展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">项目作品</h2>
+            <div class="projects-grid">
+                <!-- 项目卡片1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>[项目名称1]</h3>
+                        <p class="project-description">[项目描述，简要说明项目的功能和特点]</p>
+                        <div class="project-tags">
+                            <span class="tag">[技术1]</span>
+                            <span class="tag">[技术2]</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 演示</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 项目卡片2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>[项目名称2]</h3>
+                        <p class="project-description">[项目描述，简要说明项目的功能和特点]</p>
+                        <div class="project-tags">
+                            <span class="tag">[技术1]</span>
+                            <span class="tag">[技术2]</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 演示</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 项目卡片3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>[项目名称3]</h3>
+                        <p class="project-description">[项目描述，简要说明项目的功能和特点]</p>
+                        <div class="project-tags">
+                            <span class="tag">[技术1]</span>
+                            <span class="tag">[技术2]</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 演示</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 项目卡片4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>[项目名称4]</h3>
+                        <p class="project-description">[项目描述，简要说明项目的功能和特点]</p>
+                        <div class="project-tags">
+                            <span class="tag">[技术1]</span>
+                            <span class="tag">[技术2]</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 演示</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客文章 -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">博客文章</h2>
+            <div class="blog-grid">
+                <!-- 文章卡片1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="far fa-calendar"></i> [2024-XX-XX]</span>
+                            <span class="blog-category"><i class="far fa-folder"></i> [分类]</span>
+                        </div>
+                        <h3 class="blog-title">[文章标题1]</h3>
+                        <p class="blog-excerpt">[文章摘要，简要介绍文章内容...</p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- 文章卡片2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="far fa-calendar"></i> [2024-XX-XX]</span>
+                            <span class="blog-category"><i class="far fa-folder"></i> [分类]</span>
+                        </div>
+                        <h3 class="blog-title">[文章标题2]</h3>
+                        <p class="blog-excerpt">[文章摘要，简要介绍文章内容...</p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- 文章卡片3 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="far fa-calendar"></i> [2024-XX-XX]</span>
+                            <span class="blog-category"><i class="far fa-folder"></i> [分类]</span>
+                        </div>
+                        <h3 class="blog-title">[文章标题3]</h3>
+                        <p class="blog-excerpt">[文章摘要，简要介绍文章内容...</p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <p>有合作意向或任何问题，欢迎随时联系我！</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-text">
+                            <h4>邮箱</h4>
+                            <p>[your-email@example.com]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-text">
+                            <h4>电话</h4>
+                            <p>[+86 XXX XXXX XXXX]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h4>地址</h4>
+                            <p>[你的城市，国家]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>发送消息</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="主题" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="您的留言..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 [你的名字]. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
